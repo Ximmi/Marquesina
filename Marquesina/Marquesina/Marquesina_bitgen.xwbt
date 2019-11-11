@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\ximmi_000\Documents\DSD\Marquesina\Marquesina\Marquesina.ncd
+OUTFILE=C:\Users\ximmi_000\Documents\DSD\Marquesina\Marquesina\Marquesina.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\ximmi_000\Documents\DSD\Marquesina\Marquesina
+LICENSE=WebPack
+USER_INFO=211794327_0_0_073

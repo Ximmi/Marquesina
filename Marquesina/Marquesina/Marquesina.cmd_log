@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.xst" -ofn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.syr" 
+xst -intstyle ise -ifn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.xst" -ofn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.syr" 
+xst -intstyle ise -ifn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.xst" -ofn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.syr" 
+xst -intstyle ise -ifn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.xst" -ofn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.syr" 
+xst -intstyle ise -ifn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.xst" -ofn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.syr" 
+xst -intstyle ise -ifn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.xst" -ofn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.syr" 
+xst -intstyle ise -ifn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.xst" -ofn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.syr" 
+xst -intstyle ise -ifn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.xst" -ofn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.syr" 
+xst -intstyle ise -ifn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.xst" -ofn "C:/Users/ximmi_000/Documents/DSD/Marquesina/Marquesina/Marquesina.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Marquesina.ngc Marquesina.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Marquesina_map.ncd Marquesina.ngd Marquesina.pcf 
+par -w -intstyle ise -ol high -mt off Marquesina_map.ncd Marquesina.ncd Marquesina.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Marquesina.twx Marquesina.ncd -o Marquesina.twr Marquesina.pcf 
+bitgen -intstyle ise -f Marquesina.ut Marquesina.ncd 

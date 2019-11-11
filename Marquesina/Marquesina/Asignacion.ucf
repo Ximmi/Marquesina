@@ -1,0 +1,6 @@
+NET "clear" LOC = T10;
+NET "seg1" LOC = M13;
+NET "seg2" LOC = L14;
+NET "seg3" LOC = T18;
+NET "seg4" LOC = T17;
+NET "clkin" LOC = E7;
